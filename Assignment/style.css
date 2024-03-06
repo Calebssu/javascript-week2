@@ -1,0 +1,171 @@
+#headerContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 1.9px;
+}
+
+.headerButtons {
+    line-height: 2.8;
+    font-size: large;
+    background-color: #DEB887;
+    font-weight: 800;
+    color: #5a462b;
+    letter-spacing: 1.8px;
+}
+
+html {
+    background-color: #DEB887;
+}
+
+.imgContainer {
+    width: 100%;
+    max-height: 425px;
+    border: 1px solid black;
+    padding-bottom: 3px;
+    overflow: hidden;
+}
+
+.imgContainer #personImg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: #5a462b;
+    font-size: 16.5px;
+    padding-bottom: 5px;
+}
+@media only screen and (max-width: 700px) {
+    p, h4 {
+        font-size: larger;
+        font-weight: 1000;
+        padding-left: 30px;
+        padding-right: 30px;        
+    }
+    .headerButtons {
+        width: 35%;
+        border: 3.5px solid #4c3618;
+    }
+}
+@media only screen and (min-width: 700px) {
+    p, h4 {
+        font-weight: 700;
+        font-size: large;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .headerButtons {
+        width: 20%;
+        border: 2.5px solid #4c3618;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    p, h4 {
+        font-weight: 600;
+        font-size: large;
+        padding-left: 225px;
+        padding-right: 225px;
+    }
+    .headerButtons {
+        max-width: 15%;
+        border: 2.5px solid #4c3618;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    p, h4 {
+        font-weight: 800;
+        font-size: x-large;
+        padding-left: 225px;
+        padding-right: 225px;
+        line-height: 1.8;
+    }
+    .footerImages {
+        padding-top: 30px;
+    }
+}
+
+#tagname {
+    display: inline;
+    margin-left: 20%;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+#Copyright {
+    display: inline;
+    margin-left: 10%;
+    font-size: small;
+}
+
+hr {
+    height: 3px;
+    background-color: #4c3618;
+}
+
+.beanItems {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.storeItems {
+    display: flex;
+    justify-content: center;
+}
+
+#beanTitle {
+    display: flex;
+    justify-content: center;
+}
+
+#userName {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contactMe {
+    text-align: center;
+}
+
+#name {
+    margin-bottom: 5%;
+    background-color: gray;
+    color: #000000;
+}
+
+#email {
+    margin-bottom: 5%;
+    background-color: gray;
+    color: #000000;
+}
+
+#message {
+    background-color: gray;
+    color: #000000;
+}
+
+#submit {
+    background-color: gray;
+}

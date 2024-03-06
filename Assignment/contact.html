@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+</head>
+<header>
+    <div id="headerContainer">
+        <img src="./assets/coffeeLogo.jpg" width="80" height="65" alt="Logo">
+        <button class="headerButtons" onclick="index()">Home</button>
+        <button class="headerButtons" onclick="about()">About</button>
+        <button class="headerButtons">Contact</button>
+    </div>
+</header>
+<hr>
+<body>
+    <h1 id="contactMe">Contact Us</h1>
+    <form action="mailto:caleb.3than23@gmail.com?subject=test" method="post" enctype="text/plain">
+        <label for="name">
+            Name:
+            <input type="text" id="name" name="name" required/>
+        </label>
+        <br>
+        <label for="email">
+            Email:
+            <input type="text" id="email" name="email" required/>
+        </label>
+        <br>
+        <label for="message">
+            Message:
+            <br>
+            <textarea id="message" name="message" rows="3" cols="30" required></textarea>
+        </label>
+        <br>
+        <label>
+            <button id="submit">Submit</button>
+        </label>
+</body>
+<hr>
+<footer>
+    <div class="footerContainer">
+        <h4 id="tagname"><em>Coff33</em></h4>
+        <h4 id="Copyright">&copy; Copyright 2024 - 2024 by Coff33. All rights Reserved.</h4>
+    </div>
+</footer>
+</html>
