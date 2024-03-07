@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js"></script>
 </head>
+<!-- Header remains the same on each page -->
 <header>
     <div id="headerContainer">
         <img src="./assets/coffeeLogo.jpg" width="80" height="65" alt="Logo">
@@ -17,33 +17,39 @@
 </header>
 <hr>
 <body>
-    <h1 id="contactMe">Contact Us</h1>
-    <form action="mailto:caleb.3than23@gmail.com?subject=test" method="post" enctype="text/plain">
-        <label for="name">
-            Name:
-            <input type="text" id="name" name="name" required/>
-        </label>
-        <br>
-        <label for="email">
-            Email:
-            <input type="text" id="email" name="email" required/>
-        </label>
-        <br>
-        <label for="message">
-            Message:
+    <div id="adjust">
+        <!-- "Required" keyword ensures the form cannot be submitted without user input -->
+        <!-- The event listener in the js file won't run without user input either -->
+        <h1 id="contactMe">Contact Us</h1>
+        <form id="form" method="get" enctype="text/plain" >
+            <label for="name">
+                Subject:
+                <input type="text" id="subject" name="subject" required/>
+            </label>
             <br>
-            <textarea id="message" name="message" rows="3" cols="30" required></textarea>
-        </label>
-        <br>
-        <label>
-            <button id="submit">Submit</button>
-        </label>
+            <label for="email">
+                Email:
+                <input type="email" id="email" name="cc" required/>
+            </label>
+            <br>
+            <label for="message">
+                Message:
+                <br>
+                <textarea id="message" name="body" rows="3" cols="30" required></textarea>
+            </label>
+            <br>
+            <input class="conButtons" type="submit" value="Send">
+        </form>
+    </div>
 </body>
 <hr>
+<!-- Footer remains the same as well -->
 <footer>
     <div class="footerContainer">
         <h4 id="tagname"><em>Coff33</em></h4>
         <h4 id="Copyright">&copy; Copyright 2024 - 2024 by Coff33. All rights Reserved.</h4>
     </div>
 </footer>
+<script src="./script.js"></script>
+
 </html>

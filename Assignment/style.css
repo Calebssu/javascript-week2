@@ -22,7 +22,7 @@ html {
 .imgContainer {
     width: 100%;
     max-height: 425px;
-    border: 1px solid black;
+    border: 1px solid #DEB887;
     padding-bottom: 3px;
     overflow: hidden;
 }
@@ -149,7 +149,7 @@ h5 {
     text-align: center;
 }
 
-#name {
+#subject {
     margin-bottom: 5%;
     background-color: gray;
     color: #000000;
@@ -168,4 +168,13 @@ h5 {
 
 #submit {
     background-color: gray;
+}
+
+#thanks {
+    text-align: center;
+}
+
+.conButtons {
+    background-color: #62461e;
+    align-items: center;
 }
